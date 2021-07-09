@@ -1,0 +1,90 @@
+.container{
+    margin-top: 40px;
+}  
+
+.homePage{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8rem;
+}
+
+.leftSection{
+    padding: 100px 17px;
+}
+
+.leftSection > h1{
+    font-size: 37px;
+    font-weight: 600;
+    font-family: cursive;
+    padding-bottom: 17px;
+}
+
+.leftSection > p{
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+.rightSection{
+    padding: 100px 100px ;
+}
+
+.rightSection > img{
+    width: 500px;
+}
+
+.leftSection > button{
+    width: 200px;
+    background-color: #7c9ab8;
+    color: #eff0f1;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 7rem;
+    margin-left: 2rem;
+}
+
+.leftSection >button:hover{
+    background-color: #eff0f1 ;
+    color:#729cc7 ;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @keyframes up-down{
+    0%{
+      transform:translateY(1rem);
+    }
+    100%{
+      transform:translateY(-1rem);
+    }
+  }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(169, 195, 243);
+    color: rgb(87, 83, 83);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+
+footer > div > a{
+    color: #094581e0;
+    padding-left: 10px;
+    
+}
+
+footer > div > a:hover{
+    color: rgb(20, 54, 65);
+}
